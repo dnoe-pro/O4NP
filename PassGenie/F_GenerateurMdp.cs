@@ -38,7 +38,7 @@ namespace PassGenie
             }
         }
 
-        /* Bouton pour Valider l'entrée d'utilisateur et faire des tests unitaires*/
+        /* Bouton pour Valider l'entrée d'utilisateur */
         private void btn_valider_Click(object sender, EventArgs e)
         {
             // Si le champ de texte est vide alors afficher le message

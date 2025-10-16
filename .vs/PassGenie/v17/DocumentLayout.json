@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|solutionrelative:passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|e:\\01-cours\\btssio_2.1\\b2\\fortin\\o4nproject\\o4np\\passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|solutionrelative:passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -38,8 +38,7 @@
               "RelativeToolTip": "PassGenie.Tests\\TestGenerateurMdp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T16:52:12.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T16:52:12.118Z"
             },
             {
               "$type": "Document",
@@ -61,7 +60,7 @@
               "RelativeDocumentMoniker": "PassGenie\\F_GenerateurMdp.cs",
               "ToolTip": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\F_GenerateurMdp.cs",
               "RelativeToolTip": "PassGenie\\F_GenerateurMdp.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T06:16:20.285Z",
               "EditorCaption": ""
@@ -76,8 +75,7 @@
               "RelativeToolTip": "PassGenie\\Classes\\MotDePasse.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAUwGAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T06:16:20.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T06:16:20.289Z"
             }
           ]
         }
