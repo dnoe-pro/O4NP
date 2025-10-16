@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PassGenie.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97f6448e919978a45a3520a74fa222fb4a26eb56")]
 [assembly: System.Reflection.AssemblyProductAttribute("PassGenie.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PassGenie.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

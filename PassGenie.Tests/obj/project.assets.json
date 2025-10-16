@@ -1088,23 +1088,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\n.dambreville\\.nuget\\packages\\": {},
+    "C:\\Users\\noeda\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\O4NP\\PassGenie.Tests\\PassGenie.Tests.csproj",
+      "projectUniqueName": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie.Tests\\PassGenie.Tests.csproj",
       "projectName": "PassGenie.Tests",
-      "projectPath": "D:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\O4NP\\PassGenie.Tests\\PassGenie.Tests.csproj",
-      "packagesPath": "C:\\Users\\n.dambreville\\.nuget\\packages\\",
-      "outputPath": "D:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\O4NP\\PassGenie.Tests\\obj\\",
+      "projectPath": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie.Tests\\PassGenie.Tests.csproj",
+      "packagesPath": "C:\\Users\\noeda\\.nuget\\packages\\",
+      "outputPath": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\n.dambreville\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\noeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1119,8 +1119,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\PassGenie.csproj": {
-              "projectPath": "D:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\PassGenie.csproj"
+            "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\PassGenie.csproj": {
+              "projectPath": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\PassGenie.csproj"
             }
           }
         }
@@ -1129,7 +1129,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -1168,7 +1174,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

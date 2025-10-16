@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\PassGenie\\",
+  "WorkspaceRootPath": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|e:\\01-cours\\btssio_2.1\\bloc2\\fortin\\o4nproject\\passgenie\\passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|e:\\01-cours\\btssio_2.1\\b2\\fortin\\o4nproject\\o4np\\passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|solutionrelative:passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|e:\\01-cours\\btssio_2.1\\bloc2\\fortin\\o4nproject\\passgenie\\passgenie\\classes\\motdepasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|solutionrelative:passgenie\\classes\\motdepasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|e:\\01-cours\\btssio_2.1\\b2\\fortin\\o4nproject\\o4np\\passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|solutionrelative:passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|E:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\PassGenie\\passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|solutionrelative:passgenie\\f_generateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CEDC2DE-ED78-405F-B1DB-E168E3EE1E91}|PassGenie.Tests\\PassGenie.Tests.csproj|e:\\01-cours\\btssio_2.1\\b2\\fortin\\o4nproject\\o4np\\passgenie.tests\\testgenerateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEDC2DE-ED78-405F-B1DB-E168E3EE1E91}|PassGenie.Tests\\PassGenie.Tests.csproj|solutionrelative:passgenie.tests\\testgenerateurmdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|e:\\01-cours\\btssio_2.1\\b2\\fortin\\o4nproject\\o4np\\passgenie\\classes\\motdepasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D76B3F07-9DBF-47B8-BA90-DC2341C6492A}|PassGenie\\PassGenie.csproj|solutionrelative:passgenie\\classes\\motdepasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +26,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TestGenerateurMdp.cs",
+              "DocumentMoniker": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie.Tests\\TestGenerateurMdp.cs",
+              "RelativeDocumentMoniker": "PassGenie.Tests\\TestGenerateurMdp.cs",
+              "ToolTip": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie.Tests\\TestGenerateurMdp.cs",
+              "RelativeToolTip": "PassGenie.Tests\\TestGenerateurMdp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T16:52:12.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "F_GenerateurMdp.cs [Conception]",
-              "DocumentMoniker": "E:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\PassGenie\\PassGenie\\F_GenerateurMdp.cs",
+              "DocumentMoniker": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\F_GenerateurMdp.cs",
               "RelativeDocumentMoniker": "PassGenie\\F_GenerateurMdp.cs",
-              "ToolTip": "E:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\PassGenie\\PassGenie\\F_GenerateurMdp.cs [Conception]",
+              "ToolTip": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\F_GenerateurMdp.cs [Conception]",
               "RelativeToolTip": "PassGenie\\F_GenerateurMdp.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T06:16:20.281Z",
@@ -40,24 +57,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "F_GenerateurMdp.cs",
-              "DocumentMoniker": "E:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\PassGenie\\PassGenie\\F_GenerateurMdp.cs",
+              "DocumentMoniker": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\F_GenerateurMdp.cs",
               "RelativeDocumentMoniker": "PassGenie\\F_GenerateurMdp.cs",
-              "ToolTip": "E:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\PassGenie\\PassGenie\\F_GenerateurMdp.cs",
+              "ToolTip": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\F_GenerateurMdp.cs",
               "RelativeToolTip": "PassGenie\\F_GenerateurMdp.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA5wDgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T06:16:20.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MotDePasse.cs",
-              "DocumentMoniker": "E:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\PassGenie\\PassGenie\\Classes\\MotDePasse.cs",
+              "DocumentMoniker": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\Classes\\MotDePasse.cs",
               "RelativeDocumentMoniker": "PassGenie\\Classes\\MotDePasse.cs",
-              "ToolTip": "E:\\01-COURS\\BTSSIO_2.1\\BLOC2\\FORTIN\\O4NProject\\PassGenie\\PassGenie\\Classes\\MotDePasse.cs",
+              "ToolTip": "E:\\01-COURS\\BTSSIO_2.1\\B2\\FORTIN\\O4NProject\\O4NP\\PassGenie\\Classes\\MotDePasse.cs",
               "RelativeToolTip": "PassGenie\\Classes\\MotDePasse.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAEwEEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwGAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T06:16:20.289Z",
               "EditorCaption": ""

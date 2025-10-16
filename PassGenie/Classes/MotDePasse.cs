@@ -24,9 +24,11 @@ namespace PassGenie.Classes
         public int getLongueur() { return this.longueur; }
         public void setMdp(string _mdp) { this.mdp = _mdp; }
         public void setLongueur(int _longueur) { this.longueur = _longueur; }
+
+        /*---------------------------------------------- GENERATION MDP -------------------------------------------*/
         public string GenererMdp(int longueur)
         {
-            // Vérifie que la longueur est entre 12
+            // Vérifie que la longueur entre 12 à 50 caractères
             longueur = Math.Clamp(longueur, 12, 50);
 
             const string minuscules = "abcdefghijklmnopqrstuvwxyz";
@@ -51,7 +53,7 @@ namespace PassGenie.Classes
             return Melanger(motDePasse.ToString());
         }
 
-        // Mélange les caractères pour éviter une séquence prévisible en generant plusieurs fois
+        // Mélange les caractères pour éviter une séquence prévisible en générant plusieurs fois
         private string Melanger(string str)
         {
             char[] array = str.ToCharArray();
@@ -65,29 +67,51 @@ namespace PassGenie.Classes
             return new string(array);
         }
 
-        public bool EstMotDePasseFort(string motDePasse)
+        /*---------------------------------------------- VERIFICATION MDP -------------------------------------------*/
+
+        public bool ContientLongueurSuffisante(string motDePasse)
         {
-            if (motDePasse.Length < 12)
-                return false;
-
-            bool aMinuscule = motDePasse.Any(char.IsLower);
-            bool aMajuscule = motDePasse.Any(char.IsUpper);
-            bool aChiffre = motDePasse.Any(char.IsDigit);
-            bool aSymbole = motDePasse.Any(c => "!?@#$%&*()+=-".Contains(c));
-
-            string[] sequencesInterdites = { "abcdef", "qwerty", "azerty", "123456", "password", "mamamama" };
-            bool contientSequenceInterdite = sequencesInterdites.Any(s => motDePasse.ToLower().Contains(s));
-
-            return aMinuscule && aMajuscule && aChiffre && aSymbole && !contientSequenceInterdite;
+            return motDePasse.Length >= 12;
+        }
+        public bool ContientMajuscule(string motDePasse)
+        {
+            return motDePasse.Any(char.IsUpper);
         }
 
-
-        public bool VerificationMdp(string mdp)
+        public bool ContientChiffre(string motDePasse)
         {
-            if (mdp.Length < 12) return false;
+            return motDePasse.Any(char.IsDigit);
+        }
 
+        public bool ContientSymbole(string motDePasse)
+        {
+            return motDePasse.Any(c => "!?@#$%&*()+=-".Contains(c));
+        }
+        public bool dictMotsConnus(string motDePasse)
+        {
+            //string fichier = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Dictionnaires\1000000-most-common-passwords.txt");
+            string fichier = @"E:\01-COURS\BTSSIO_2.1\B2\FORTIN\O4NProject\O4NP\PassGenie\Dictionnaires\1000000-most-common-passwords.txt";
+            // Vérifie si le fichier existe
+            if (!File.Exists(fichier))
+            {
+                MessageBox.Show("le fichier est introuvable");
+                return false;
+            }
 
+            string[] motsConnus = File.ReadAllLines(fichier);
+
+            // Convertir le mdp en minuscule pour comparer les combinaison
+            string motDePasseMin = motDePasse.ToLower();
+
+            // Vérifie si le mdp contient l'un des mots connus
+            foreach (string motConnu in motsConnus)
+            {
+                if (!string.IsNullOrEmpty(motConnu) && motDePasseMin.Contains(motConnu.ToLower()))
+                {
+                    return true; // return si le mdp contient le mot connu
+                }
+            }
+            return false; // return si le mdp ne contient pas le mot connu
         }
     }
-    
 }

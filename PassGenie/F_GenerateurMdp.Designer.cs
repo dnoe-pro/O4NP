@@ -33,15 +33,15 @@
             btn_generer_mdp = new Button();
             btn_copier_mdp = new Button();
             l_mdp = new Label();
-            button1 = new Button();
+            btn_valider = new Button();
             tbr_longueur = new TrackBar();
             l_longueur_valeur = new Label();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
+            l_symbole = new Label();
+            l_chiffre = new Label();
+            l_majuscule = new Label();
+            l_longueur = new Label();
+            l_suitelogique = new Label();
+            l_motconnu = new Label();
             notifyIcon1 = new NotifyIcon(components);
             ((System.ComponentModel.ISupportInitialize)tbr_longueur).BeginInit();
             SuspendLayout();
@@ -65,12 +65,14 @@
             // 
             // btn_copier_mdp
             // 
-            btn_copier_mdp.Image = Properties.Resources.icon_copier_24x24;
-            btn_copier_mdp.Location = new Point(443, 31);
+            btn_copier_mdp.BackColor = SystemColors.ButtonHighlight;
+            btn_copier_mdp.ForeColor = SystemColors.ControlLightLight;
+            btn_copier_mdp.Image = Properties.Resources.icon_copy;
+            btn_copier_mdp.Location = new Point(376, 31);
             btn_copier_mdp.Name = "btn_copier_mdp";
-            btn_copier_mdp.Size = new Size(26, 29);
+            btn_copier_mdp.Size = new Size(23, 23);
             btn_copier_mdp.TabIndex = 2;
-            btn_copier_mdp.UseVisualStyleBackColor = true;
+            btn_copier_mdp.UseVisualStyleBackColor = false;
             btn_copier_mdp.Click += btn_copier_mdp_Click;
             // 
             // l_mdp
@@ -82,14 +84,15 @@
             l_mdp.TabIndex = 3;
             l_mdp.Text = "Mot de passe :";
             // 
-            // button1
+            // btn_valider
             // 
-            button1.Location = new Point(354, 333);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 24);
-            button1.TabIndex = 4;
-            button1.Text = "Valider";
-            button1.UseVisualStyleBackColor = true;
+            btn_valider.Location = new Point(325, 129);
+            btn_valider.Name = "btn_valider";
+            btn_valider.Size = new Size(112, 24);
+            btn_valider.TabIndex = 4;
+            btn_valider.Text = "Valider";
+            btn_valider.UseVisualStyleBackColor = true;
+            btn_valider.Click += btn_valider_Click;
             // 
             // tbr_longueur
             // 
@@ -98,8 +101,9 @@
             tbr_longueur.Maximum = 50;
             tbr_longueur.Minimum = 12;
             tbr_longueur.Name = "tbr_longueur";
-            tbr_longueur.Size = new Size(254, 45);
+            tbr_longueur.Size = new Size(425, 45);
             tbr_longueur.TabIndex = 5;
+            tbr_longueur.TickStyle = TickStyle.None;
             tbr_longueur.Value = 12;
             tbr_longueur.Scroll += tbr_longueur_Scroll;
             // 
@@ -112,59 +116,59 @@
             l_longueur_valeur.TabIndex = 6;
             l_longueur_valeur.Text = "Longueur : 12";
             // 
-            // label1
+            // l_symbole
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(28, 126);
-            label1.Name = "label1";
-            label1.Size = new Size(165, 15);
-            label1.TabIndex = 7;
-            label1.Text = "Dispose au moins un symbole";
+            l_symbole.AutoSize = true;
+            l_symbole.Location = new Point(11, 165);
+            l_symbole.Name = "l_symbole";
+            l_symbole.Size = new Size(165, 15);
+            l_symbole.TabIndex = 7;
+            l_symbole.Text = "Dispose au moins un symbole";
             // 
-            // label2
+            // l_chiffre
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(29, 152);
-            label2.Name = "label2";
-            label2.Size = new Size(164, 15);
-            label2.TabIndex = 8;
-            label2.Text = "Dispose au moins d'un chiffre";
+            l_chiffre.AutoSize = true;
+            l_chiffre.Location = new Point(11, 190);
+            l_chiffre.Name = "l_chiffre";
+            l_chiffre.Size = new Size(164, 15);
+            l_chiffre.TabIndex = 8;
+            l_chiffre.Text = "Dispose au moins d'un chiffre";
             // 
-            // label3
+            // l_majuscule
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(29, 177);
-            label3.Name = "label3";
-            label3.Size = new Size(190, 15);
-            label3.TabIndex = 9;
-            label3.Text = "Dispose au moins d'une majuscule";
+            l_majuscule.AutoSize = true;
+            l_majuscule.Location = new Point(11, 214);
+            l_majuscule.Name = "l_majuscule";
+            l_majuscule.Size = new Size(190, 15);
+            l_majuscule.TabIndex = 9;
+            l_majuscule.Text = "Dispose au moins d'une majuscule";
             // 
-            // label4
+            // l_longueur
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(29, 203);
-            label4.Name = "label4";
-            label4.Size = new Size(230, 15);
-            label4.TabIndex = 10;
-            label4.Text = "Dispose au moins d'une douzaine de mots";
+            l_longueur.AutoSize = true;
+            l_longueur.Location = new Point(219, 165);
+            l_longueur.Name = "l_longueur";
+            l_longueur.Size = new Size(230, 15);
+            l_longueur.TabIndex = 10;
+            l_longueur.Text = "Dispose au moins d'une douzaine de mots";
             // 
-            // label5
+            // l_suitelogique
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(28, 279);
-            label5.Name = "label5";
-            label5.Size = new Size(206, 15);
-            label5.TabIndex = 11;
-            label5.Text = "Ne dispose pas d'une suite de logique";
+            l_suitelogique.AutoSize = true;
+            l_suitelogique.Location = new Point(219, 214);
+            l_suitelogique.Name = "l_suitelogique";
+            l_suitelogique.Size = new Size(206, 15);
+            l_suitelogique.TabIndex = 11;
+            l_suitelogique.Text = "Ne dispose pas d'une suite de logique";
             // 
-            // label6
+            // l_motconnu
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(29, 253);
-            label6.Name = "label6";
-            label6.Size = new Size(175, 15);
-            label6.TabIndex = 12;
-            label6.Text = "Ne dispose pas d'un mot connu";
+            l_motconnu.AutoSize = true;
+            l_motconnu.Location = new Point(219, 190);
+            l_motconnu.Name = "l_motconnu";
+            l_motconnu.Size = new Size(175, 15);
+            l_motconnu.TabIndex = 12;
+            l_motconnu.Text = "Ne dispose pas d'un mot connu";
             // 
             // notifyIcon1
             // 
@@ -173,16 +177,16 @@
             // 
             // F_GenerateurMdp
             // 
-            ClientSize = new Size(478, 369);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            ClientSize = new Size(478, 243);
+            Controls.Add(l_motconnu);
+            Controls.Add(l_suitelogique);
+            Controls.Add(l_longueur);
+            Controls.Add(l_majuscule);
+            Controls.Add(l_chiffre);
+            Controls.Add(l_symbole);
             Controls.Add(l_longueur_valeur);
             Controls.Add(tbr_longueur);
-            Controls.Add(button1);
+            Controls.Add(btn_valider);
             Controls.Add(l_mdp);
             Controls.Add(btn_copier_mdp);
             Controls.Add(btn_generer_mdp);
@@ -202,12 +206,13 @@
         private Button button1;
         private TrackBar tbr_longueur;
         private Label l_longueur_valeur;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
+        private Label l_symbole;
+        private Label l_chiffre;
+        private Label l_majuscule;
+        private Label l_longueur;
+        private Label l_suitelogique;
+        private Label l_motconnu;
         private NotifyIcon notifyIcon1;
+        private Button btn_valider;
     }
 }
